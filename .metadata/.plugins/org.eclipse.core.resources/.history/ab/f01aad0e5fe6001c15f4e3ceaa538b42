@@ -1,0 +1,45 @@
+package JavaCoding;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class EPAM {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.epam.com/");
+		
+		driver.manage().window().maximize();
+		Actions action = new Actions(driver);
+		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Our Work')]"))).build().perform();
+		driver.findElement(By.xpath("//a[contains(text(),'Financial Services')]")).click();
+		String parent = driver.getWindowHandle();
+		Set<String> s = driver.getWindowHandles();
+		Iterator<String> I1 =s.iterator();
+		while(I1.hasNext())
+		{
+
+		String child_window=I1.next();
+
+
+		if(!parent.equals(child_window))
+		{
+		driver.switchTo().window(child_window);
+
+		System.out.println(driver.switchTo().window(child_window).getTitle());
+
+		}
+
+		}
+		
+	}
+
+}

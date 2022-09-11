@@ -1,0 +1,11 @@
+package JavaCoding;
+
+public class Stringimmutable {
+
+	public static void main(String[] args) {
+		String str = "a day is a good";
+		 str = " a day is very good";
+System.out.println(str);
+	}
+
+}

@@ -1,0 +1,23 @@
+package JavaCoding;
+
+public class Poly {
+	static int a = 2;
+	static int b = 3;
+	static int c = 5;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 add(a,b);
+		 add(a,c);
+
+	}
+
+	private static void add(int a2, int b2) {
+		// TODO Auto-generated method stub
+		int sum = a+b;
+		int addition = a+c;
+		System.out.println(sum);
+	}
+
+}

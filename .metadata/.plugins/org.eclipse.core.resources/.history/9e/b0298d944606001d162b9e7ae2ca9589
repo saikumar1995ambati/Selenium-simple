@@ -1,0 +1,32 @@
+package JavaCoding;
+
+public class Wordsreversechar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "It's a rainy day";
+		reverseChar(str);
+
+	}
+
+	private static void reverseChar(String str1) {
+		// TODO Auto-generated method stub
+		StringBuilder sb1 = new StringBuilder();
+		StringBuilder sb = new StringBuilder();
+		
+		String [] arr = str1.split(" ");
+		for(int i = arr.length; i>=1; i--)
+		{
+			char [] ch = arr[i].toCharArray();
+			for(int x = ch.length;i>=1;i--)
+			{
+				
+				         sb1=      sb.append(ch[i]);
+				         System.out.println(sb1);
+			}
+			
+		}
+		
+	}
+
+}

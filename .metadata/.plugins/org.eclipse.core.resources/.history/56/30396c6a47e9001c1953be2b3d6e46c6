@@ -1,0 +1,25 @@
+package JavaCoding;
+
+public class Simplecode {
+
+			  public static void main(String[] args)
+			  {
+			    String str = "NAME";
+			    sayHello(str);
+			  }
+			    
+			    public static String sayHello(String name) {
+			        // You can print to STDOUT for debugging if you need to:
+			        if(name.equals("NAME")){
+			          
+			          return "Hello, NAME!";
+			        }
+			        else
+			        {
+			        // but you need to return the correct value in order to pass the challenge
+			        return "Hello there!";
+			        }// TODO: return the correct value
+			    }
+
+	}
+

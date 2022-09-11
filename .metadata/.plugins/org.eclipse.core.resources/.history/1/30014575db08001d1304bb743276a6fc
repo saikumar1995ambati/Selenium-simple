@@ -1,0 +1,37 @@
+package JavaCoding;
+
+public class InverterTest {
+	
+	public void shouldInvert(String str)
+	{
+		if(str.length()<=1)
+		{
+			System.out.println(str);
+		}
+		else if(str==" ")
+		{
+			System.out.println(" ");
+		}
+		else
+		{
+			char[] ch = str.toCharArray();
+			for(int i=ch.length-1;i>=0;i--)
+			{
+				StringBuffer sb = new StringBuffer();
+				StringBuffer sb1 = new StringBuffer();
+				sb = sb1.append(ch[i]);
+				System.out.print(sb);
+			}
+			
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		String str = " ";
+		InverterTest inv = new InverterTest();
+		inv.shouldInvert(str);
+
+	}
+
+}

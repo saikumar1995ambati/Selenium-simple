@@ -1,0 +1,34 @@
+package JavaCoding;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Frequencycount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         String str ="trwqattsdd";
+         freqCount(str);
+         
+	}
+
+	private static void freqCount(String str) {
+		HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+		int count=1;
+		for(int i=0;i<str.length()-1;i++)
+		{
+			for(int j=str.length()-1;j>i;j--)
+			{
+				if(str.charAt(i)==str.charAt(j))
+				{
+					
+					map.put(str.charAt(i), count++);
+					
+				}
+				
+			}
+		}
+		System.out.println(map);
+	}
+
+}

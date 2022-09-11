@@ -1,0 +1,20 @@
+package JavaCoding;
+
+public class PermutationString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "abac";
+		permutationComb(str);
+
+	}
+
+	private static void permutationComb(String str) {
+		
+		for(int i=0;i<str.length();i++)
+		{
+			String ans = str.substring(i)+str.substring(i, i+1)
+		}
+	}
+
+}

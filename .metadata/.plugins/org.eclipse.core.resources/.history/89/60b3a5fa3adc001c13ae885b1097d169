@@ -1,0 +1,39 @@
+package JavaCoding;
+
+public class Frequency {
+
+	public static void main(String[] args) {
+		String str1 ="abcabac";
+		int[] count = new int[str1.length()];
+		int i,j=0;
+		
+		char[]w=str1.toCharArray();
+		for(i=0;i<str1.length();i++)
+		{
+			count[i] =1;
+			for(j=i+1;j<str1.length();j++)
+			{
+				if(w[i]==w[j])
+				{
+                     count[i]++;
+					
+					w[j] = '0';
+					
+				}
+			}
+		
+		    
+		}
+		   System.out.println("Characters and their corresponding frequencies");  
+		   for(i=0;i<count.length;i++)
+		   {
+			   if(w[i]!= ' ' && w[i]!= '0')
+			   {
+				   System.out.println(w[i] + "              " + count[i]);
+			   }
+			   
+		   }
+
+	}
+
+}

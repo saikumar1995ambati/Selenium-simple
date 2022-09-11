@@ -1,0 +1,29 @@
+package JavaCoding;
+
+public class ArrayMissingElements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = new int[] {6, 12,14};
+		missingeli(arr);
+
+	}
+
+	private static void missingeli(int[] arr) {
+		int count =0;
+		for(int i =arr[count];i>=arr[arr.length-1];i++)
+		{
+			if(arr[count]==i)
+			{
+				count++;
+			}
+			else
+			{
+				System.out.print(i);
+			}
+		}
+		
+		
+	}
+
+}

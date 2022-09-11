@@ -1,0 +1,41 @@
+package JavaCoding;
+
+public class SecondLargest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] arr = {1, 5, 50, 19,30,40};
+		
+		secondNum(arr);
+
+	}
+
+	private static void secondNum(int[] arr) {
+		
+		int n = arr.length;
+		int largest = arr[0];
+		//int second = arr[0];
+		for(int i=0;i<=n;i++)
+		{
+			for(int j=n ;j>i;j--)
+			{
+				if(arr[i]>arr[j])
+				{
+				 largest=arr[i];
+				 System.out.println(largest);
+				
+					
+				}
+				else
+				{
+					largest = arr[j];
+					System.out.println(largest);
+					
+				}
+			}
+			i++;
+		}
+		System.out.println(largest);
+	}
+
+}

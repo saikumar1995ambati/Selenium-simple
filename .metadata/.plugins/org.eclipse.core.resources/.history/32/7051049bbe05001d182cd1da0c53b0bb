@@ -1,0 +1,21 @@
+package com.saikumar.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BrowserStack {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.browserstack.com/guide/handle-multiple-windows-in-selenium");
+		int s = driver.findElements(By.xpath("//ul[@id='menu-products']//li")).size();
+		System.out.println(s);
+	}
+
+}

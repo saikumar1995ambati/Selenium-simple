@@ -1,0 +1,26 @@
+package com.orangehrm.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.orangehrm.pagefactorypages.LoginfactoryPage;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class OrangePagefactoryTest {
+	
+	@Test()
+	public void logincheck()
+	{
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+		driver.manage().window().maximize();
+		LoginfactoryPage loginfp = new LoginfactoryPage(driver);
+		loginfp.loginfunction("admin", "admin123");
+		driver.quit();
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.saikumar.practice;
+
+public class firstletter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String str = "this is a song";
+		
+		capitalize(str);
+		
+	}
+
+	private static void capitalize(String str) {
+		// TODO Auto-generated method stub
+		
+	String abc =	str.toUpperCase();
+	System.out.println(abc);
+		
+	}
+
+}

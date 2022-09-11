@@ -1,0 +1,41 @@
+package JavaCoding;
+
+import static org.junit.jupiter.api.Assumptions.assumingThat;
+
+public class SecondLargest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] arr = {1, 5, 50, 45,19,30,40};
+		
+		secondNum(arr);
+
+	}
+
+	private static void secondNum(int[] arr) {
+		
+		int n = arr.length;
+		int largest = arr[0];
+		//int second = arr[0];
+		for(int i=0;i<=n-1;i++)
+		
+			{
+				if(largest<arr[i])
+				{
+				 largest=arr[i];
+							
+				}
+				
+		}
+		int a = 0;
+		//System.out.println(largest);
+		for(int i=0;i<=n-1;i++)
+		{
+			a = Math.min(largest,arr[i]);
+			
+		}
+		System.out.println(a);
+		
+	}
+
+}

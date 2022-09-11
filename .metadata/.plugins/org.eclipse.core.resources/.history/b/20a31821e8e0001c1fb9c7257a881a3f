@@ -1,0 +1,30 @@
+package JavaCoding;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Swapping {
+	List<Integer>list = new ArrayList<Integer>;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Scanner sc = new Scanner(System.in);
+     int a = sc.nextInt();
+     int b = sc.nextInt();
+     swap(a,b);
+     
+	}
+
+	private static ArrayList swap(int a, int b) {
+		a = a + b;
+		b = a - b;
+		a = a-b;
+
+		return null;
+		
+		
+	}
+
+}

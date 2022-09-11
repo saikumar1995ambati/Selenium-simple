@@ -1,0 +1,28 @@
+package JavaCoding;
+
+import java.util.Arrays;
+
+public class ArrayElements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = { 10, 11, 13, 6, 7,};
+		missingElements(arr);
+	}
+
+	private static void missingElements(int[] arr) {
+		Arrays.sort(arr);
+		int n = arr.length;
+		int count = 0;
+		for (int i = arr[0]; i <=arr[n - 1]; i++) {
+			if (arr[count] == i)
+
+			{
+				count++;
+			} else {
+				System.out.print(i + " ");
+			}
+
+		}
+	}
+}

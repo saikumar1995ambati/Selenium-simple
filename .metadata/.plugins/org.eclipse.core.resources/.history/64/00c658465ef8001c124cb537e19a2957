@@ -1,0 +1,24 @@
+package com.saikumar.practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Test {
+
+	public static void main(String[] args) {
+		WebDriverManager.chromedriver().setup();
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.cricbuzz.com/");
+		driver.findElement(By.xpath("//a[@title='Live Cricket Score']")).click();
+		driver.findElement(By.xpath("//a[@title='Scorecard'][1]")).click();
+		String text = driver.findElement(By.xpath("//div[@class='cb-col cb-col-8 text-bold text-black text-right'][1]")).getText();
+		
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package JavaCoding;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class StringDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java is Java hello is";
+		frequency(str);
+
+	}
+
+	private static void frequency(String str) {
+		String [] words = str.split(" ");
+		Map<String,Integer>wordscount = new HashMap<String,Integer>();
+		for(String word : words)
+		{
+			if(wordscount.get(word)>1)
+			{
+				wordscount.put(word, wordscount.get(word)+1);
+			}
+			else
+			{
+				wordscount.put(word, 1);
+			}
+		}
+		
+		Set<String>wordsInstring = wordscount.keySet();
+		
+		for(String word: wordsInstring)
+		{
+			if(wordscount.get(word)>1)
+			{
+				System.out.println(word + " : "+ wordscount.get(word));
+			}
+		}
+		
+		
+	}
+
+}

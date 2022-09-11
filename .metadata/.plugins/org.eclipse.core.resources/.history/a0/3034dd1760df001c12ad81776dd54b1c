@@ -1,0 +1,32 @@
+package JavaCoding;
+
+public class Palindrome {
+	static int sum = 0;
+	static int num = 343;
+	static int rem =0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(palindrome(num));
+
+	}
+
+	private static boolean palindrome(int num) {
+		while(num!=0)
+		{
+		rem = num % 10;
+	
+		sum = (sum * 10)+rem; 
+		num = num / 10;
+		}
+		if(sum!=num)
+		{
+			System.out.println(sum);
+		return false;
+		}
+		else
+		return true;
+
+}
+}

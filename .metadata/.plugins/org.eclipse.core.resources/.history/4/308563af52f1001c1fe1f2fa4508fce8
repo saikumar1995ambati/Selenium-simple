@@ -1,0 +1,34 @@
+package com.saikumar.practice;
+
+public class StringSeparate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str =" geeks@!##123";
+		
+		separate(str);
+
+	}
+
+	private static void separate(String str) {
+		StringBuffer alpha = new StringBuffer(), digit = new StringBuffer(), spechar = new StringBuffer();
+		for(int i =0;i<str.length();i++)
+		{
+			
+		if(Character.isAlphabetic(str.charAt(i)))
+		{
+			alpha.append(str.charAt(i));
+		}
+		else if(Character.isDigit(str.charAt(i)))
+		{
+			digit.append(str.charAt(i));
+		}
+		else
+		{
+		  spechar.append(str.charAt(i));
+		}
+		}
+		System.out.println("alpha " + alpha + "digit " + digit + "specialchar " + spechar);
+	}
+
+}

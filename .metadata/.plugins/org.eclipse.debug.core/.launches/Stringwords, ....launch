@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumSimple"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="com.saikumar.practice.ChangerPattern"/>
+        <listEntry value="com.strings.MapProblem"/>
+        <listEntry value="SeleniumBasics.ToolTip"/>
+        <listEntry value="SeleniumBasics.LoginTest"/>
+        <listEntry value="JavaCoding.BinaryArray"/>
+        <listEntry value="SeleniumBasics.MouseRightClickAction"/>
+        <listEntry value="Test"/>
+        <listEntry value="com.analyser.Addition"/>
+        <listEntry value="com.analyser.Retryanalyser"/>
+        <listEntry value="com.saikumar.practice.firstletter"/>
+        <listEntry value="SeleniumBasics.DropDownHandle"/>
+        <listEntry value="JavaCoding.Poly"/>
+        <listEntry value="JavaCoding.SecondLargest"/>
+        <listEntry value="JavaCoding.DuplicatesMap"/>
+        <listEntry value="SeleniumBasics.DragAndDown"/>
+        <listEntry value="JavaCoding.StringPalindrome"/>
+        <listEntry value="SeleniumBasics.PracticeDropDown"/>
+        <listEntry value="SeleniumBasics.ScreenshotsFolder"/>
+        <listEntry value="SeleniumBasics.BrokenLinks"/>
+        <listEntry value="com.saikumar.Retrylogic"/>
+        <listEntry value="SeleniumBasics.Selectoption"/>
+        <listEntry value="com.saikumar.practice.GoogleSearch"/>
+        <listEntry value="JavaCoding.Palindrome"/>
+        <listEntry value="JavaCoding.MiddleCharacter"/>
+        <listEntry value="com.saikumar.practice.Stringreverse"/>
+        <listEntry value="com.saikumar.practice.Specailchar"/>
+        <listEntry value="Stringwords"/>
+        <listEntry value="JavaCoding.CharCount"/>
+        <listEntry value="JavaCoding.Integercount"/>
+        <listEntry value="JavaCoding.EPAM"/>
+        <listEntry value="SeleniumBasics.MultipleCheckBox"/>
+        <listEntry value="JavaCoding.Sumnumber"/>
+        <listEntry value="com.saikumar.practice.PrimeNumber"/>
+        <listEntry value="com.analyser.Variable"/>
+        <listEntry value="com.saikumar.practice.PageFactory"/>
+        <listEntry value="JavaCoding.LongestPalindrome"/>
+        <listEntry value="JavaCoding.TypeCasting"/>
+        <listEntry value="JavaCoding.Simplecode"/>
+        <listEntry value="SeleniumBasics.Amazon"/>
+        <listEntry value="JavaCoding.StringDuplicate"/>
+        <listEntry value="SeleniumBasics.JavaScriptExecutorDemo"/>
+        <listEntry value="com.saikumar.practice.MapIterator"/>
+        <listEntry value="JavaCoding.LongestPrefix"/>
+        <listEntry value="JavaCoding.largestnum"/>
+        <listEntry value="JavaCoding.Swapping"/>
+        <listEntry value="JavaCoding.Stringonlyreverse"/>
+        <listEntry value="SeleniumBasics.DropDownWithoutSelectMethod"/>
+        <listEntry value="com.saikumar.practice.Secondlargestnumber"/>
+        <listEntry value="SeleniumBasics.SeleniumBootStrap"/>
+        <listEntry value="com.saikumar.practice.Indexing"/>
+        <listEntry value="JavaCoding.Duplicateelements"/>
+        <listEntry value="com.strings.Substringdiff"/>
+        <listEntry value="JavaCoding.Xpathvarious"/>
+        <listEntry value="com.analyser.MyTransformer"/>
+        <listEntry value="com.saikumar.practice.ArrayAdd"/>
+        <listEntry value="JavaCoding.VowelsCheck"/>
+        <listEntry value="com.saikumar.test.Internetherok1"/>
+        <listEntry value="JavaCoding.printstars"/>
+        <listEntry value="com.crud.Address"/>
+        <listEntry value="JavaCoding.SimplePalindrome"/>
+        <listEntry value="SeleniumBasics.RightClick"/>
+        <listEntry value="com.saikumar.practice.NumbersStable"/>
+        <listEntry value="com.saikumar.practice.StringSeparate"/>
+        <listEntry value="JavaCoding.Loggerfunction"/>
+        <listEntry value="com.crud.AddressPage"/>
+        <listEntry value="JavaCoding.Stringonlyrreverse"/>
+        <listEntry value="JavaCoding.Fibonacciseries"/>
+        <listEntry value="com.table.Iterations"/>
+        <listEntry value="com.table.TableOperations"/>
+        <listEntry value="SeleniumBasics.TakeScreenshot"/>
+        <listEntry value="JavaCoding.MiddleStarPattern"/>
+        <listEntry value="JavaCoding.Stringreverse"/>
+        <listEntry value="JavaCoding.ArrayElements"/>
+        <listEntry value="JavaCoding.Wordcount"/>
+        <listEntry value="SeleniumBasics.Seleniums"/>
+        <listEntry value="JavaCoding.SortingWords"/>
+        <listEntry value="JavaCoding.Frequency"/>
+        <listEntry value="JavaCoding.Stringimmutable"/>
+        <listEntry value="com.saikumar.practice.Test"/>
+        <listEntry value="com.saikumar.practice.Amazon"/>
+        <listEntry value="com.analyser.Addele"/>
+        <listEntry value="com.strings.StringParagraphs"/>
+        <listEntry value="com.strings.Tokens"/>
+        <listEntry value="JavaCoding.PermutationString"/>
+        <listEntry value="SeleniumBasics.NewDropdown"/>
+        <listEntry value="JavaCoding.Frequencycount"/>
+        <listEntry value="SeleniumBasics.TableAutomate"/>
+        <listEntry value="SeleniumBasics.HandleMultipleDropdown"/>
+        <listEntry value="com.saikumar.practice.Simpleclass"/>
+        <listEntry value="SeleniumBasics.Scope"/>
+        <listEntry value="SeleniumBasics.HandleBootStrapDropBox"/>
+        <listEntry value="com.saikumar.test.OrangeHRM"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

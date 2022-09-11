@@ -1,0 +1,13 @@
+package JavaCoding;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Object o = new Integer(6);
+		System.out.println(o);
+
+	}
+
+}

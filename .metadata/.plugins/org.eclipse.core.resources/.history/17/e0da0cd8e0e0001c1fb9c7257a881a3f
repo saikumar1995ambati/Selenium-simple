@@ -1,0 +1,30 @@
+package JavaCoding;
+
+public class StringPalindrome {
+
+	public static void main(String[] args) {
+		String str = "abcabab";
+		Plaindrome(str);
+		
+		
+				
+
+	}
+
+	private static void Plaindrome(String str1) {
+		
+		if(str1!=null)
+		{
+			for(int i=0;i<str1.length();i++)
+			{
+				if(str1.charAt(i)==str1.charAt(str1.length()-i-1))
+				{
+					System.out.println("palindrome");
+				}
+			}
+		}
+		
+		
+	}
+
+}

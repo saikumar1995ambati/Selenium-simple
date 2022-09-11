@@ -1,0 +1,32 @@
+package JavaCoding;
+
+public class Sumnumber {
+	static int num = 123;
+	static int sum =0;
+	static int gnum=num;
+	
+	
+
+	public static void main(String[] args) {
+		
+		System.out.println(sumofNumber(num));
+		
+
+	}
+
+
+
+	private static int sumofNumber(int num2) {
+		while(num2!=0)
+		{
+			int rem = num2 % 10;
+			double sum = Math.pow(rem, 3);
+			num2 = num2 /10;	
+			
+		}
+		return sum;
+		
+		
+	}
+
+}
